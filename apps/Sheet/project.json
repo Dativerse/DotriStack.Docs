@@ -1,0 +1,9 @@
+{
+  "name": "Sheet",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/Sheet/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project Sheet --web",
+  "targets": {}
+}
