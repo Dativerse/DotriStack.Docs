@@ -11,9 +11,9 @@
       "!{projectRoot}/.eslintrc.json",
       "!{projectRoot}/eslint.config.mjs"
     ],
-    "sharedGlobals": []
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "67ae1f7b663b1d3d72591137",
+  "nxCloudId": "67b1c32afbcfd65be1fae7bd",
   "plugins": [
     {
       "plugin": "@nx/vite/plugin",
@@ -34,32 +34,21 @@
       "options": {
         "targetName": "lint"
       }
-    },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
     }
   ],
-  "targetDefaults": {
-    "e2e-ci--**/*": {
-      "dependsOn": ["^build"]
-    }
-  },
   "generators": {
     "@nx/react": {
       "application": {
         "babel": true,
-        "style": "tailwind",
+        "style": "scss",
         "linter": "eslint",
         "bundler": "vite"
       },
       "component": {
-        "style": "tailwind"
+        "style": "scss"
       },
       "library": {
-        "style": "tailwind",
+        "style": "scss",
         "linter": "eslint"
       }
     }

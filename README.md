@@ -6,9 +6,9 @@
 
 [Learn more about this workspace setup and its capabilities](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
-## Finish your remote caching setup
+## Finish your CI setup
 
-[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/KLwHLaMl5W)
+[Click here to finish setting up your workspace!](https://cloud.nx.app/connect/lv4prrLPeG)
 
 
 ## Run tasks
